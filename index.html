@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./utils/styles.css" />
+    <link rel="javaScript" href="./utils/main.js" />
+    <title>Responsive Personal Portfolio Website Design | @rk</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="a" class="logo">Portfolio.</a>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, Myself</h3>
+        <h1>Rohit Karmakar</h1>
+        <h3>And I'm <span class="multiple-text"></span></h3>
+        <p>
+          I'm driven by a deep passion for crafting innovative digital solutions
+          that excite both users and stakeholders alike. With a relentless
+          curiosity and excitement for exploring cutting-edge technologies, I
+          thrive on the dynamic challenges of web development. My enthusiasm
+          fuels my commitment to delivering high-quality, user-centric
+          applications that push boundaries and inspire others in the field.
+        </p>
+        <div class="social-media">
+          <a href="https://www.instagram.com/r0.hi_t"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/r0hitkarmakar"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/rohit-07zx"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://github.com/rohit-07zx"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.usercontent.google.com/uc?id=1iEP6YVbpmvUs87KsKIRAFLo3IqkJ6D-x&export=download"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="./public/Picture3.png" alt="" />
+      </div>
+    </section>
+    <!--About Section Design-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./public/Picture4.png" alt="#" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">ABOUT<span>Me</span></h2>
+        <h3>Fullstack Developer</h3>
+        <p>
+          I'm driven by a deep passion for crafting innovative digital solutions
+          that excite both users and stakeholders alike. With a relentless
+          curiosity and excitement for exploring cutting-edge technologies, I
+          thrive on the dynamic challenges of web development. My enthusiasm
+          fuels my commitment to delivering high-quality, user-centric
+          applications that push boundaries and inspire others in the field.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!--services Section Design-->
+    <section class="services" id="services">
+      <h2 class="headinng">My<span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Fullstack Development</h3>
+          <p>
+            As a passionate Full Stack Developer, I specialize in creating
+            seamless, efficient, and user-friendly web applications. With a
+            strong foundation in both front-end technologies like React, and
+            back-end such as Node.js and Django, I excel at bridging the gap
+            between design and functionality.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>UI/UX Designing</h3>
+          <p>
+            I bring a keen eye for detail and a commitment to delivering
+            intuitive and visually appealing interfaces. My enthusiasm for
+            exploring cutting-edge technologies fuels my ability to create
+            seamless, user-friendly applications that provide exceptional user
+            experiences.
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT Section Design-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Phone Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder=" Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!--FOOTER Design-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @RohitSoutions| All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+    <!--scroller reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--Main Design-->
+    <script src="main.js"></script>
+  </body>
+</html>
